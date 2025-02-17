@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>assesment2-inshaal-Login</title>
+</head>
+<body>
+    <div class="logincontainer">
+        <div class="login">
+            <img src="smalltwitter.png" alt="Twitter Logo" class="logo">
+
+            <h1>Log in to Twitter</h1>
+
+            <div class="input-container">
+                <input placeholder="Phone number, email address" >
+                <input placeholder="Password">
+                <button >Log In</button>
+            </div>
+
+            <div class="links">
+                <a href="#" class="forgot">Forgot password?</a>
+                <a href="#" class="signup">Sign up to Twitter</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
+<!--
+        logincontainer {---main
+        login {
+        img
+        h1
+        input
+        links
+    }
+                        }
+ -->
+
+<style>
+.logincontainer{
+    width: 100%;
+    font:  16px Arial, sans-serif;
+}
+.login{
+    align-items: center; 
+    display:flex;
+    flex-direction: column;
+    padding-top:15%;  
+}
+.login img{
+    width: 50px;
+}
+h1{
+    font-size: 30px;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+}
+input{ 
+    border-radius:10px ;
+    margin: 10px;
+    padding:10px;
+    width: 300px;
+    border: 1px solid rgb(215, 212, 212);
+}
+button{
+    margin: 10px;
+    padding:10px;
+    width: 320px;
+    border-radius:20px ;
+    background-color: rgb(23, 169, 242);
+    border: none;
+    color:white;
+    cursor: pointer;
+
+}
+.links {
+            margin-top: 20px;
+            display: flex;  
+            font-size: 14px;
+            gap: 80px; 
+        }
+
+</style>

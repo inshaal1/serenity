@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>asssesment2-inshaal-landing</title>
+</head>
+<body>
+    <div class="main">
+
+        <div class="sidebackground"> <img src="backtwitter.png" alt="logo"></div>
+
+        <div class="head">
+            <img src="smalltwitter.png" alt="Twitter Logo" >
+            <h1>Happening Now</h1>
+            <h2>Join Twitter Today</h2>
+
+            <div class="buttoncontainer">  
+                <button class="Google">
+                    <img src="google.png" alt="Google Logo"> Signup with Google
+                </button>
+                <button class="Apple">
+                    <img src="apple.png" alt="Apple Logo"> Signup with Apple
+                </button>
+                <button class="email">Signup with phone or email</button>
+            </div>
+
+            <div class="paragraphs">
+                <p>By signing up, you agree to the 
+                    <a href="#">Terms of Service</a> and 
+                    <a href="#">Privacy Policy</a>, including <a href="#">Cookie Use</a>.
+                </p>
+                <p>Already have an account? 
+                    <a href="#">Log in</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>
+          About &nbsp; Help Center &nbsp; 
+          Terms Of Service &nbsp; Cookie Policy &nbsp;
+          Ads info &nbsp; Blog &nbsp; Status &nbsp; 
+          Careers &nbsp; Brand Resources &nbsp; Advertising &nbsp; Marketing &nbsp; 
+          Twitter for Business &nbsp; Developers &nbsp; 
+          Directory &nbsp; Settings &nbsp; &#9400; 2021 Twitter, Inc.
+        </p>
+    </div>
+</body>
+</html>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        height: 100%;
+    }
+    .main{
+    display: flex;
+    flex-direction: row;
+}
+    .sidebackground{
+    flex:1;
+    }
+    .sidebackground img{
+        width:auto;
+        height:auto;
+    }
+
+     .head{ 
+        justify-content: center;
+        display:flex;
+        flex:2;
+        flex-direction:column;
+        padding:50px;
+        font-weight: bold;
+    } 
+    .head img{
+      width:40px;
+      padding-left: 10px;
+      
+    }
+    h1{
+        font-size:60px;
+        margin:0;
+        padding:10px;
+    }
+    h2{
+        margin:0;
+        padding:10px;
+        font-size:24px;
+    }
+    .buttoncontainer{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        gap:10px;
+        padding-bottom: 20px;
+    }
+    .buttoncontainer img{
+        width: 30px;
+    }
+    button{
+      border-radius: 20px;
+      padding:10px;
+      font-size:20px;
+      border:solid 1px rgb(204, 201, 201);
+      background-color: white;
+    }
+.paragraphs{
+    font-size: 15px;
+}
+.footer {
+    display: flex;
+    justify-content:center; 
+    padding: 10px ;
+    width: 100%;
+    }
+
+</style>
